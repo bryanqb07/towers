@@ -1,0 +1,87 @@
+/* reset */
+
+h1,h2,h3,ul{
+    margin: 0;
+}
+
+body{
+     background-image: src("pagoda.jpg");
+}
+
+*{
+     background-color: black;
+     color: white;
+     box-sizing: content-box;
+}
+
+h1{
+    text-align: center;    
+}
+
+div h1{
+    background-color:red;
+    margin: 0 auto; 
+}
+
+.toh{
+
+    margin: 0 auto;
+    
+}
+
+
+.tower-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+
+
+.tower{
+    background-color: blue;
+    width: 33.33%;
+    height: 33.33%;
+    padding: 10px;
+}
+
+.disk-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto; 
+}
+
+.disk{
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: green;
+    width: 300px;
+    height: 33%;
+    border: 1px solid black;
+}
+
+#disk0{
+    width: 100px;
+    height: 66.67px;
+}
+
+#disk1{
+    width: 200px;
+}
+
+.selected{
+    background-color: purple;
+}
+
+.tower-name{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    /* border  : 2px solid black; */
+}
+
+
+
